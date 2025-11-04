@@ -142,13 +142,7 @@ To enable SSH, follow these steps:
 This would make the SSH server start at boot:
 
 ```shell
-sudo systemctl enable sshd
-```
-
-After that, run this command to start the server immediately:
-
-```shell
-sudo systemctl start sshd
+sudo systemctl enable sshd --now
 ```
 
 ![Enable SSH on Steam Deck](assets/settings-ssh.jpg)
